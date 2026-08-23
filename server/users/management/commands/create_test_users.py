@@ -26,4 +26,4 @@ class Command(BaseCommand):
             username="David", password="user123", role=UserProfile.ROLE_USER
         )
 
-        self.stdout.write(self.style.SUCCESS("Test users created successfully."))
+        self.stdout.write("Test users created successfully.")
