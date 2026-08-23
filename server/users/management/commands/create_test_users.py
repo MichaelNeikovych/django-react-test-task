@@ -26,4 +26,8 @@ class Command(BaseCommand):
             username="David", password="user123", role=UserProfile.ROLE_USER
         )
 
+        self.create_user(
+            username="Isya", password="user123", role=UserProfile.ROLE_USER
+        )
+
         self.stdout.write("Test users created successfully.")
